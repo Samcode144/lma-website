@@ -162,7 +162,7 @@ export default function Home() {
               </Link>
             ))}
             <Link
-              href="#verification"
+              href="/verification"
               className="font-semibold text-amber-700 transition hover:text-amber-900"
             >
               Staff Verification
@@ -207,14 +207,14 @@ export default function Home() {
 
             <div className="mt-6 flex flex-col gap-3 sm:mt-9 sm:flex-row sm:flex-wrap sm:gap-4">
               <Link
-                href="#about"
+                href="/about"
                 className="inline-flex items-center justify-center gap-3 rounded-lg bg-amber-400 px-5 py-3 text-sm font-bold text-blue-950 transition hover:bg-amber-300 sm:px-6 sm:py-4"
               >
                 Discover LMA
                 <ArrowIcon />
               </Link>
               <Link
-                href="#projects"
+                href="/projects"
                 className="inline-flex items-center justify-center rounded-lg border border-white/25 px-5 py-3 text-sm font-semibold text-white transition hover:bg-white/10 sm:px-6 sm:py-4"
               >
                 Explore Our Work
@@ -316,7 +316,7 @@ export default function Home() {
             </p>
 
             <Link
-              href="#departments"
+              href="/departments"
               className="mt-5 inline-flex items-center gap-3 text-sm font-bold text-blue-900 hover:text-amber-700 sm:mt-7"
             >
               Explore our organizational structure
@@ -694,20 +694,20 @@ export default function Home() {
             <div>
               <h3 className="font-bold text-white">Explore</h3>
               <div className="mt-4 flex flex-col gap-3 text-sm text-slate-400">
-                <Link href="#about" className="hover:text-amber-400">About LMA</Link>
-                <Link href="#leadership" className="hover:text-amber-400">Leadership</Link>
-                <Link href="#projects" className="hover:text-amber-400">Projects</Link>
-                <Link href="#programs" className="hover:text-amber-400">Programs</Link>
+                <Link href="/about" className="hover:text-amber-400">About LMA</Link>
+                <Link href="/leadership" className="hover:text-amber-400">Leadership</Link>
+                <Link href="/projects" className="hover:text-amber-400">Projects</Link>
+                <Link href="/programs" className="hover:text-amber-400">Programs</Link>
               </div>
             </div>
 
             <div>
               <h3 className="font-bold text-white">Organization</h3>
               <div className="mt-4 flex flex-col gap-3 text-sm text-slate-400">
-                <Link href="#partnerships" className="hover:text-amber-400">Partnerships</Link>
-                <Link href="#news" className="hover:text-amber-400">News & Updates</Link>
+                <Link href="/partnerships" className="hover:text-amber-400">Partnerships</Link>
+                <Link href="/news" className="hover:text-amber-400">News & Updates</Link>
                 <Link href="#contact" className="hover:text-amber-400">Contact</Link>
-                <Link href="#verification" className="hover:text-amber-400">Staff Verification</Link>
+                <Link href="/verification" className="hover:text-amber-400">Staff Verification</Link>
               </div>
             </div>
           </div>

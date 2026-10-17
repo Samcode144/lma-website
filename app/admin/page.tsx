@@ -101,7 +101,7 @@ async function AdminDashboard() {
               </Link>
 
               <Link
-                href="/verify"
+                href="/verification"
                 className="rounded-xl border border-slate-200 p-4 transition hover:border-amber-400 hover:bg-amber-50 sm:p-5"
               >
                 <h4 className="text-sm font-semibold text-slate-900 sm:text-base">

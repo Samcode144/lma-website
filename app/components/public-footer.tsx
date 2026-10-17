@@ -33,7 +33,7 @@ export default function PublicFooter() {
           <div>
             <h3 className="font-bold text-white">Explore</h3>
             <div className="mt-4 flex flex-col gap-3 text-sm text-slate-400">
-              <Link href="/#about" className="hover:text-amber-400">About LMA</Link>
+              <Link href="/about" className="hover:text-amber-400">About LMA</Link>
               <Link href="/leadership" className="hover:text-amber-400">Leadership</Link>
               <Link href="/departments" className="hover:text-amber-400">Departments</Link>
               <Link href="/projects" className="hover:text-amber-400">Projects</Link>
@@ -46,8 +46,7 @@ export default function PublicFooter() {
             <div className="mt-4 flex flex-col gap-3 text-sm text-slate-400">
               <Link href="/partnerships" className="hover:text-amber-400">Partnerships</Link>
               <Link href="/news" className="hover:text-amber-400">News & Updates</Link>
-              <Link href="/#contact" className="hover:text-amber-400">Contact</Link>
-              <Link href="/verify" className="hover:text-amber-400">Staff Verification</Link>
+              <Link href="/verification" className="hover:text-amber-400">Staff Verification</Link>
             </div>
           </div>
         </div>

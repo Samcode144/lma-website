@@ -67,7 +67,7 @@ function CloseIcon() {
 }
 
 const navigation = [
-  { label: "About LMA", href: "/#about" },
+  { label: "About LMA", href: "/about" },
   { label: "Leadership", href: "/leadership" },
   { label: "Departments", href: "/departments" },
   { label: "Projects", href: "/projects" },
@@ -168,7 +168,7 @@ export default function PublicHeader() {
               </Link>
             ))}
             <Link
-              href="/verify"
+              href="/verification"
               className="font-semibold text-amber-700 transition hover:text-amber-900"
             >
               Staff Verification
@@ -198,7 +198,7 @@ export default function PublicHeader() {
                   </Link>
                 ))}
                 <Link
-                  href="/verify"
+                  href="/verification"
                   onClick={closeMobileMenu}
                   className="rounded-lg px-4 py-3 text-base font-semibold text-amber-700 transition hover:bg-amber-50 hover:text-amber-900"
                 >
