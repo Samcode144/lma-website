@@ -134,7 +134,7 @@ export default function PublicHeader() {
 
           {/* Desktop CTA */}
           <Link
-            href="/#contact"
+            href="/contact"
             className="hidden items-center gap-2 rounded-lg bg-blue-950 px-4 py-3 text-sm font-semibold text-white transition hover:bg-blue-800 lg:inline-flex"
           >
             Contact LMA
@@ -208,7 +208,7 @@ export default function PublicHeader() {
 
               <div className="mt-6 border-t border-slate-200 pt-6">
                 <Link
-                  href="/#contact"
+                  href="/contact"
                   onClick={closeMobileMenu}
                   className="flex w-full items-center justify-center gap-2 rounded-lg bg-blue-950 px-6 py-4 text-base font-semibold text-white transition hover:bg-blue-800"
                 >

@@ -46,6 +46,7 @@ export default function PublicFooter() {
             <div className="mt-4 flex flex-col gap-3 text-sm text-slate-400">
               <Link href="/partnerships" className="hover:text-amber-400">Partnerships</Link>
               <Link href="/news" className="hover:text-amber-400">News & Updates</Link>
+              <Link href="/contact" className="hover:text-amber-400">Contact</Link>
               <Link href="/verification" className="hover:text-amber-400">Staff Verification</Link>
             </div>
           </div>
